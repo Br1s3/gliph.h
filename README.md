@@ -16,6 +16,7 @@ make all
 ```
 
 ## Exemple of uses with the BasicExmple program:
+
 ```c
 #define GLIPH_SPACEPADDED
 #define GLIPH_IMPLEMENTATION
@@ -93,3 +94,6 @@ TODO:
 in PrintLine() and DrawLine()
 - [ ] Add DrawRectangle()
 
+## Reference:
+
+- https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124

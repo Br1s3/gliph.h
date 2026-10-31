@@ -13,7 +13,7 @@ CFLAGS +=	\
 
 all: $(EXEC)
 
-%: %.c
+%: %.c gliph.h
 	$(CC) $< -o $@ $(CFLAGS)
 
 clean:
