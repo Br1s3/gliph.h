@@ -75,7 +75,7 @@ int main()
     for (int i = -20; i < 20; i++) {
 	ConsoleClear(console, '.');
 	PrintTriangle(console, XOFFSET(ax), YOFFSET(ay), XOFFSET(bx), YOFFSET(by), XOFFSET(cx), YOFFSET(i), '#');
-	PrintTriangle(console, XOFFSET(ax+1), YOFFSET(ay-1), XOFFSET(bx), YOFFSET(by+1), XOFFSET(cx-1), YOFFSET(i-1), '+');
+	PrintTriangle(console, XOFFSET(ax+1), YOFFSET(ay-1), XOFFSET(bx), YOFFSET(by+1), XOFFSET(cx-1), YOFFSET(i), '+');
 	PrintRectangle(console, 0, 0, 1, 1, '*');
 	PrintConsole(console);
 	usleep(100000);
